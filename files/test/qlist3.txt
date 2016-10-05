@@ -1,0 +1,27 @@
+
+
+ Questions:
+ ctl00_cphMainBodyContainer_ctl00_lblQuestionText
+ ctl00_cphMainBodyContainer_ctl01_lblQuestionText ....
+
+
+ <span id="ctl00_cphMainBodyContainer_ctl00_lblQuestionText" class="LabelText"><pre>{TITLE}</pre></span>
+ 
+ 
+ Answers:
+ 
+ ctl00_cphMainBodyContainer_ctl00_upAnswerList
+ ctl00_cphMainBodyContainer_ctl01_upAnswerList
+ 
+             <div id="ctl00_cphMainBodyContainer_ctl00_upAnswerList">
+			
+                    <table width="100%" class="LabelText">
+                        <tr class="LabelText">
+                            <td colspan="3" class="LabelText">
+                                <table id="ctl00_cphMainBodyContainer_ctl00_ctl20" class="mylist" onclick="check1(this)" border="0">
+				<tr>
+					<td><span class="LabelText"><input id="ctl00_cphMainBodyContainer_ctl00_ctl20_0" type="radio" name="ctl00$cphMainBodyContainer$ctl00$ctl20" value="19968" checked="checked" /><label for="ctl00_cphMainBodyContainer_ctl00_ctl20_0"><pre>True</pre></label></span></td>
+				</tr><tr>
+					<td><span class="LabelText"><input id="ctl00_cphMainBodyContainer_ctl00_ctl20_1" type="radio" name="ctl00$cphMainBodyContainer$ctl00$ctl20" value="19969" /><label for="ctl00_cphMainBodyContainer_ctl00_ctl20_1"><pre>False</pre></label></span></td>
+				</tr>
+			</table>

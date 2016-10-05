@@ -1,0 +1,9 @@
+  #AuthType Basic
+  #AuthName "Who THE FUCK are you?"
+  #AuthUserFile "/home/miglenco/public_html/sharky/files/php/.auth"
+  #Require valid-user
+
+RewriteEngine On
+#RewriteRule ^index\.php$ - [L]
+#RewriteRule ^(.+)\.html$  /index.php?file=$1.html [L,NC,QSA]
+RewriteRule ^(.+)\.html$  /index.php?page=$1 [L,NC,QSA]
