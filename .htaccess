@@ -1,7 +1,8 @@
-  #AuthType Basic
-  #AuthName "Who THE FUCK are you?"
-  #AuthUserFile "/home/miglenco/public_html/sharky/files/php/.auth"
-  #Require valid-user
+# Disabled authentication
+#AuthType Basic
+#AuthName "Who THE FUCK are you?"
+#AuthUserFile "/home/miglenco/public_html/sharky/files/php/.auth"
+#Require valid-user
 
 RewriteEngine On
 #RewriteRule ^index\.php$ - [L]
